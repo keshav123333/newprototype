@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Farmer Marketplace</h1>
+    </header>
+    <main>
+        <section id="farmer-dashboard">
+            <h2>Farmer Dashboard</h2>
+            <input type="text" id="product-name" placeholder="Product Name">
+            <input type="number" id="product-price" placeholder="Product Price">
+            <input type="text" id="product-image-url" placeholder="Product Image URL">
+            <button onclick="addProduct()">Add Product</button>
+        </section>
+        <section id="product-listing">
+            <h2>Product Listings</h2>
+        
+                 <div id="product-list" class="product-grid" ></div> 
+             
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
